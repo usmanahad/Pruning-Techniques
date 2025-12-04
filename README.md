@@ -1,5 +1,3 @@
-Assignment 1A: Network Pruning (VGG16-BN on CIFAR-10/100)
-
 This repository implements various network pruning techniques to optimize VGG16-BN models for edge devices and evaluated them based off of Model Size (MB), Peak/Avg GPU Memory, Latency (ms), Energy Consumption (mJ), and MACs.
 The techniques included:
 - Unstructured Pruning: individual weights are zeroed out regardless of structure
